@@ -7,3 +7,11 @@ string[] FirstArray = {"fbdg", "123", "-=", "1516541", "fdvb", "jf", "15"};
 string[] SeconArray = new string[FirstArray.Length];
 int count = 0;
 
+for (int i = 0; i < FirstArray.Length; i++)
+{
+    if (FirstArray[i].Length <= 3)
+    {
+        SeconArray[count] = FirstArray[i];
+        count ++;
+    }
+}
