@@ -15,3 +15,7 @@ for (int i = 0; i < FirstArray.Length; i++)
         count ++;
     }
 }
+for (int i = 0; i < count; i++)
+{
+    Console.Write(" [" + SeconArray[i] + "] ");
+}
